@@ -1,0 +1,2169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonCart</title>
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="./css/animate.css">
+
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header class="d-flex ">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex align-items-center">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="./images/logo.svg" alt="logo" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="col-lg-8 col-md-9 col-sm-8 d-flex col-6 justify-content-between align-items-center flex-grow-1 nav-flex">
+                    <nav class="navbar navbar-expand-lg normal-nav">
+
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+
+                                <li class="nav-item dropdown drop-nav"><a href="#" class="nav-link dropdown-toggle"
+                                        href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">SHOP</a>
+
+                                    <ul class="dropdown-menu drop-menu">
+                                        <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                                        <li><a class="dropdown-item" href="single-product.html">Single Product</a></li>
+                                        <li><a class="dropdown-item" href="wishlist.html">Wishlist</a></li>
+                                        <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                                        <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item"><a href="blog.html" class="nav-link">BLOG</a></li>
+
+                                <li class="nav-item dropdown drop-nav"><a href="#" class="nav-link dropdown-toggle"
+                                        href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">PAGES</a>
+
+                                    <ul class="dropdown-menu drop-menu">
+                                        <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="gift-voucher.html">Our Gift Vouchers</a></li>
+                                        <li><a class="dropdown-item" href="our-team.html">Our Team</a></li>
+                                        <li><a class="dropdown-item" href="order-track.html">Order Tracking</a></li>
+                                        <li><a class="dropdown-item" href="my-account.html">My Account</a></li>
+                                        <li><a class="dropdown-item" href="registation.html">Registration</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item"><a href="contact-us.html" class="nav-link">CONTACT US</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <div class="menu-r d-flex align-items-center">
+                        <ul class="d-flex">
+                            <li><a href="my-account.html">LOGIN / REGISTER</a></li>
+                            <li><a href="#"><i class="las la-search"></i></a></li>
+                            <li><a id="side-wish-open" data-bs-toggle="offcanvas" href="#offcanvas-right"
+                                    role="button"><i class="lar la-heart"></i></a></li>
+                            <li><a id="side-cart-open" data-bs-toggle="offcanvas" href="#offcanvas-right" role="button">
+                                    <i class="las la-shopping-bag"></i>
+                                    <span class="cart-count">5</span>
+                                </a></li>
+                        </ul>
+                    </div>
+
+                    <button class="mobile-nav-toggler">
+                        <i class="las la-bars"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start Mobile Nav  -->
+    <div class="mobile-nav">
+        <div class="mobile-nav-head d-flex justify-content-between ">
+            <a href="#" class="m-n-logo">
+                <img src="./images/logo.svg" alt="logo" class="img-fluid">
+            </a>
+
+            <button class="mobile-nav-closer">
+                <i class="las la-times"></i>
+            </button>
+        </div>
+
+        <nav class="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item m-m-li"><a class="nav-link" href="index.html">HOME</a></li>
+
+                <li class="nav-item dropdown m-m-li"><a href="#" class="nav-link dropdown-toggle" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">SHOP</a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                        <li><a class="dropdown-item" href="single-product.html">Single Product</a></li>
+                        <li><a class="dropdown-item" href="wishlist.html">Wishlist</a></li>
+                        <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                        <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item m-m-li"><a href="blog.html" class="nav-link">BLOG</a></li>
+
+                <li class="nav-item dropdown m-m-li"><a href="#" class="nav-link dropdown-toggle" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">PAGES</a>
+
+                    <ul class="dropdown-menu ">
+                        <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                        <li><a class="dropdown-item" href="gift-voucher.html">Our Gift Vouchers</a></li>
+                        <li><a class="dropdown-item" href="our-team.html">Our Team</a></li>
+                        <li><a class="dropdown-item" href="order-track.html">Order Tracking</a></li>
+                        <li><a class="dropdown-item" href="my-account.html">My Account</a></li>
+                        <li><a class="dropdown-item" href="registation.html">Registration</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item m-m-li"><a href="contact-us.html" class="nav-link">CONTACT US</a></li>
+            </ul>
+
+            <div class="mobile-nav-social">
+                <a href=""><i class="lab la-facebook-f"></i></a>
+                <a href=""><i class="lab la-twitter"></i></a>
+                <a href=""><i class="lab la-linkedin-in"></i></a>
+                <a href=""><i class="lab la-instagram"></i></a>
+            </div>
+
+        </nav>
+
+    </div>
+    <!-- End Mobile Nav  -->
+
+    <div class="clearfix"></div>
+
+
+    <!-- Start Quick View Section -->
+    <section class="modal fade" id="quick-view" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+
+            <div class="modal-content quick-view-inner">
+                <button type="button" class="" data-bs-dismiss="modal" aria-label="Close" id="quick-view-close">
+                    <i class="las la-times"></i>
+                </button>
+
+                <div class="modal-body  quick-view-main">
+                    <div class="row g-xl-4 g-3">
+                        <div class="col-xl-6 col-lg-6">
+                            <div id="quick-view-slider">
+                                <div class="quick-view-img-slide">
+                                    <img src="./images/single-product1.png" class="img-fluid" alt="single-product1">
+                                    <button class="expand-sin-pr"><i class="las la-expand"></i></button>
+                                </div>
+
+                                <div class="quick-view-img-slide">
+                                    <img src="./images/single-product2.png" class="img-fluid" alt="single-product2">
+                                    <button class="expand-sin-pr"><i class="las la-expand"></i></button>
+                                </div>
+
+                                <div class="quick-view-img-slide">
+                                    <img src="./images/single-product3.png" class="img-fluid" alt="single-product3">
+                                    <button class="expand-sin-pr"><i class="las la-expand"></i></button>
+                                </div>
+
+                                <div
+                                    class="quick-view-nav-dots d-flex flex-column  align-items-center justify-content-center ">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="quick-view-pr-details">
+                                <div class="quick-view-pr-name d-flex flex-column ">
+                                    <span class="quick-view-pr-tag">SALE 20% Off</span>
+
+                                    <h4 class="mb-0"><a href="shop.html">Luxury Couch</a></h4>
+
+                                    <div class="quick-view-pr-review d-flex align-items-center">
+                                        <ul class="d-flex align-items-center p-0 m-0">
+                                            <li><i class="las la-star"></i></li>
+                                            <li><i class="las la-star"></i></li>
+                                            <li><i class="las la-star"></i></li>
+                                            <li><i class="las la-star" style="color: rgba(94, 98, 111, 0.25);"></i></li>
+                                            <li><i class="las la-star" style="color: rgba(94, 98, 111, 0.25);"></i></li>
+                                        </ul>
+
+                                        <span>4.7 Rating</span>
+
+                                        <a href="">(5 customer reviews)</a>
+                                    </div>
+                                </div>
+
+                                <p class="quick-view-pr-text">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+
+                                <div class="quick-view-pr-prch d-flex flex-wrap">
+                                    <div class="quick-view-pr-price d-flex flex-column ">
+                                        <span class="quick-view-pr-prch-head">Price</span>
+                                        <span class="quick-view-pr-price-num">$125.75 <span>$132.17</span></span>
+                                    </div>
+
+                                    <div class="quick-view-pr-quantity d-flex flex-column ">
+                                        <span class="quick-view-pr-prch-head">Quantity</span>
+
+                                        <div class="quantity-box input-group d-flex ">
+                                            <button class="quantity-minus"><i class="las la-minus"></i></button>
+                                            <input type="text" name="quantity" value="1">
+                                            <button class="quantity-plus"><i class="las la-plus"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="quick-view-pr-btn d-flex align-items-center">
+                                    <a href="./cart.html" class="quick-view-pr-btn-1">ADD TO CART</a>
+                                    <a href="./cart.html" class="quick-view-pr-btn-2"><i class="lar la-heart"></i> Add
+                                        To
+                                        Wishlist</a>
+                                </div>
+
+                                <div class="quick-view-pr-info">
+                                    <ul class="d-flex flex-column ">
+                                        <li class="d-flex align-items-center flex-wrap">
+                                            <strong>SKU:</strong>
+                                            <span>PRT584E63A</span>
+                                        </li>
+
+                                        <li class="d-flex align-items-center flex-wrap">
+                                            <strong>Category:</strong>
+                                            <span>Bottles,</span>
+                                            <span>Accessories,</span>
+                                            <span>Mats,</span>
+                                            <span>Bags,</span>
+                                            <span>Cups</span>
+                                        </li>
+
+                                        <li class="d-flex align-items-center flex-wrap">
+                                            <strong>Tags:</strong>
+                                            <span>Trackers,</span>
+                                            <span>Bags,</span>
+                                            <span>Toothbrushes,</span>
+                                            <span>Cups</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Quick View Section -->
+
+
+    <div class="clearfix"></div>
+
+    <!-- Start Single Product Img View -->
+    <section id="pr-img-view">
+        <div class="img-view-top d-flex align-items-center justify-content-between ">
+            <div class="img-view-slider-num">
+                <span class="curr-slide">1</span> / <span class="total-slide"></span>
+            </div>
+
+            <div class="img-view-btns d-flex align-items-center">
+                <button class="img-view-zoom"><i class="las la-search-plus"></i></button>
+                <button class="img-view-download"><i class="las la-download"></i></button>
+                <button class="img-view-close"><i class="las la-times"></i></button>
+            </div>
+        </div>
+
+        <div class="img-v-nav-btn">
+            <button class="img-v-prev"><i class="las la-arrow-left"></i></button>
+            <button class="img-v-next"><i class="las la-arrow-right"></i></button>
+        </div>
+
+        <div class="img-view-mid-slider">
+
+            <div class="img-view-silde d-flex justify-content-center ">
+                <img src="./images/single-product1.png" class="img-fluid" alt="single-product1">
+            </div>
+
+            <div class="img-view-silde d-flex justify-content-center ">
+                <img src="./images/single-product2.png" class="img-fluid" alt="single-product2">
+            </div>
+
+            <div class="img-view-silde d-flex justify-content-center ">
+                <img src="./images/single-product3.png" class="img-fluid" alt="single-product3">
+            </div>
+
+            <div class="img-view-nav-dots d-flex align-items-center justify-content-center">
+
+            </div>
+        </div>
+    </section>
+    <!-- End Single Product Img View -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start Right Offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-right" aria-labelledby="offcanvasResponsiveLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive"
+                aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <!-- Nav pills -->
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link off-can-nav active" data-bs-toggle="pill" href="#off-cart">Shopping Cart
+                        <span>5</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link off-can-nav" data-bs-toggle="pill" href="#off-wish">Wishlist <span>2</span></a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane off-can-tab container active show fade" id="off-cart">
+                    <div class="side-cart d-flex flex-column ">
+                        <ul class="side-cart-list d-flex flex-column p-0 m-0">
+                            <li class="side-cart-list d-flex align-items-center justify-content-between ">
+                                <div class="cart-list-pr-img">
+                                    <img src="./images/product1.png" class="img-fluid " alt="product1">
+                                </div>
+
+                                <div class="cart-list-pr-text">
+                                    <h6>Wooden Water Bottles</h6>
+
+                                    <div class="cart-list-pr-info d-flex align-items-center ">
+                                        <div class="quantity-box input-group d-flex ">
+                                            <button class="quantity-minus"><i class="las la-minus"></i></button>
+                                            <input type="text" name="quantity" value="1">
+                                            <button class="quantity-plus"><i class="las la-plus"></i></button>
+                                        </div>
+
+                                        <span>$50.00</span>
+                                    </div>
+                                </div>
+
+                                <a href="" class="side-cart-cancel"><i class="lar la-times-circle"></i></a>
+                            </li>
+
+                            <li class="side-cart-list d-flex align-items-center justify-content-between ">
+                                <div class="cart-list-pr-img">
+                                    <img src="./images/product2.png" class="img-fluid " alt="product2">
+                                </div>
+
+                                <div class="cart-list-pr-text">
+                                    <h6>Bamboo Cups</h6>
+
+                                    <div class="cart-list-pr-info d-flex align-items-center ">
+                                        <div class="quantity-box input-group d-flex ">
+                                            <button class="quantity-minus"><i class="las la-minus"></i></button>
+                                            <input type="text" name="quantity" value="1">
+                                            <button class="quantity-plus"><i class="las la-plus"></i></button>
+                                        </div>
+
+                                        <span>$40.00</span>
+                                    </div>
+                                </div>
+
+                                <a href="" class="side-cart-cancel"><i class="lar la-times-circle"></i></a>
+                            </li>
+
+                            <li class="side-cart-list d-flex align-items-center justify-content-between ">
+                                <div class="cart-list-pr-img">
+                                    <img src="./images/product3.png" class="img-fluid " alt="product3">
+                                </div>
+
+                                <div class="cart-list-pr-text">
+                                    <h6>Wooden Toothbrushes</h6>
+
+                                    <div class="cart-list-pr-info d-flex align-items-center ">
+                                        <div class="quantity-box input-group d-flex ">
+                                            <button class="quantity-minus"><i class="las la-minus"></i></button>
+                                            <input type="text" name="quantity" value="1">
+                                            <button class="quantity-plus"><i class="las la-plus"></i></button>
+                                        </div>
+
+                                        <span>$65.00</span>
+                                    </div>
+                                </div>
+
+                                <a href="" class="side-cart-cancel"><i class="lar la-times-circle"></i></a>
+                            </li>
+                        </ul>
+
+                        <h5 class="side-cart-sub-total d-flex align-items-center justify-content-between ">
+                            Subtotal <span class="side-crt-sub-amount">300.00$</span>
+                        </h5>
+
+                        <div class="side-cart-bottom">
+                            <div class="side-cart-info d-flex align-items-center ">
+                                <i class="las la-ship"></i>
+
+                                <div class="side-cart-info-text">
+                                    <h6>Congratulations , you've got free shipping!</h6>
+
+                                    <div class="side-cart-progress-bar">
+                                        <div class="progress"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="./checkout.html" class="side-cart-check-btn">Checkout</a>
+
+                            <a href="./cart.html" class="side-cart-view-btn">View cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane off-can-tab container fade" id="off-wish">
+                    <ul class="p-0 m-0">
+                        <li class="side-wishlist d-flex align-items-center">
+                            <div class="side-wish-img">
+                                <img src="./images/product1.png" class="img-fluid " alt="product1">
+                            </div>
+
+                            <div class="side-wish-text">
+                                <h6>Wooden Water Bottles</h6>
+                                <span>$50.00</span>
+                            </div>
+
+                            <a href="" class="side-wish-cancel"><i class="lar la-times-circle"></i></a>
+                        </li>
+
+                        <li class="side-wishlist d-flex align-items-center">
+                            <div class="side-wish-img">
+                                <img src="./images/product2.png" class="img-fluid " alt="product2">
+                            </div>
+
+                            <div class="side-wish-text">
+                                <h6>Wooden Cup</h6>
+                                <span>$40.00</span>
+                            </div>
+
+                            <a href="" class="side-wish-cancel"><i class="lar la-times-circle"></i></a>
+                        </li>
+
+                        <li class="side-wishlist d-flex align-items-center">
+                            <div class="side-wish-img">
+                                <img src="./images/product3.png" class="img-fluid " alt="product3">
+                            </div>
+
+                            <div class="side-wish-text">
+                                <h6>Bamboo toothbrushes</h6>
+                                <span>$65.00</span>
+                            </div>
+
+                            <a href="" class="side-wish-cancel"><i class="lar la-times-circle"></i></a>
+                        </li>
+                    </ul>
+
+                    <a href="" class="side-wish-view-btn">View cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Right Offcanvas -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start Banner -->
+    <section id="banner">
+        <div class="container">
+            <div id="banner-main">
+                <div class="owl-carousel owl-one owl-theme">
+                    <div class="item wow animated fadeIn">
+                        <div class="banner-content row ">
+                            <div class="banner-text col-sm-6 d-flex flex-column " id="bann-text-1">
+                                <h1>Natural Wooden Products</h1>
+
+                                <p>Sell globally in minutes with localized currencies, languages, and experiences in
+                                    every market.
+                                </p>
+
+                                <div class="banner-product-info d-flex align-items-center ">
+                                    <div class="banner-product-price d-flex flex-column ">
+                                        <span class="banner-price-name">Price</span>
+                                        <span class="banner-price-num">$125.75</span>
+                                    </div>
+
+                                    <div class="banner-product-color d-flex flex-column">
+                                        <span class="banner-color-name">Color</span>
+                                        <span class="banner-color-pick">
+                                            <ul>
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="b-p-color-picker" value="black">
+                                                        <span class="b-p-color" style="background-color:#000"></span>
+                                                    </label>
+                                                </li>
+
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="b-p-color-picker" value="blue">
+                                                        <span class="b-p-color" style="background-color:#0d775e"></span>
+                                                    </label>
+                                                </li>
+
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="b-p-color-picker" value="green">
+                                                        <span class="b-p-color" style="background-color:#c7d1cf"></span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="banner-btn">
+                                    <a href="cart.html" class="banner-btn-1">ADD TO CART</a>
+                                    <a href="single-product.html" class="banner-btn-2">VIEW DETAILS</a>
+                                </div>
+                            </div>
+
+                            <div class="banner-img d-flex justify-content-center align-items-center  col-sm-6"
+                                id="bann-img-1">
+                                <img src="./images/banner-media-1.png" class="img-fluid " alt="banner-media-1.png">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item wow animated fadeIn">
+                        <div class="banner-content row">
+                            <div class="banner-text col-sm-6 d-flex flex-column ">
+                                <h1>Explore Wooden Products</h1>
+
+                                <p>Sell globally in minutes with localized currencies, languages, and experiences in
+                                    every market.
+                                </p>
+
+                                <div class="banner-product-info d-flex align-items-center ">
+                                    <div class="banner-product-price d-flex flex-column ">
+                                        <span class="banner-price-name">Price</span>
+                                        <span class="banner-price-num">$120.80</span>
+                                    </div>
+
+                                    <div class="banner-product-color d-flex flex-column">
+                                        <span class="banner-color-name">Color</span>
+                                        <span class="banner-color-pick">
+                                            <ul>
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="b-p-color-picker" value="black">
+                                                        <span class="b-p-color" style="background-color:#000"></span>
+                                                    </label>
+                                                </li>
+
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="b-p-color-picker" value="blue">
+                                                        <span class="b-p-color" style="background-color:#0d775e"></span>
+                                                    </label>
+                                                </li>
+
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="b-p-color-picker" value="green">
+                                                        <span class="b-p-color" style="background-color:#c7d1cf"></span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="banner-btn">
+                                    <a href="cart.html" class="banner-btn-1">ADD TO CART</a>
+                                    <a href="single-product.html" class="banner-btn-2">VIEW DETAILS</a>
+                                </div>
+                            </div>
+
+                            <div class="banner-img d-flex justify-content-center align-items-center  col-sm-6">
+                                <img src="./images/banner-media-2.png" class="img-fluid " alt="banner-media-2.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-box"></div>
+        </div>
+
+        <div class="banner-r-bg"></div>
+
+        <div class="banner-social">
+            <ul>
+                <li><a href="#">INSTAGRAM</a></li>
+                <li><a href="#">FACEBOOK</a></li>
+                <li><a href="#">TWITTER</a></li>
+            </ul>
+        </div>
+
+        <a href="contact-us.html" class="banner-talk">LET'S TALK</a>
+
+
+    </section>
+    <!-- End Banner -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start About -->
+    <section id="sale-pr">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 wow animated fadeInUp">
+                    <div class="sale-pr-1">
+                        <div class="pr-1-content">
+                            <h2>Wooden <br>
+                                Water Bottles</h2>
+                            <p class="pr-sale-off">UP TO 60% OFF</p>
+                        </div>
+
+                        <div class="pr-sale-btn">
+                            <a href="shop.html">Shop now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 d-flex flex-column gap-4 ">
+                    <div class="sale-pr-2 wow animated fadeInUp" data-wow-delay=".3s">
+                        <div class="pr-2-content">
+                            <h2>Bamboo <br>
+                                toothbrushes</h2>
+                            <p class="pr-sale-off">UP TO 60% OFF</p>
+                        </div>
+
+                        <div class="pr-sale-btn">
+                            <a href="shop.html">Shop now</a>
+                        </div>
+                    </div>
+
+                    <div class="sale-pr-3 wow animated fadeInUp" data-wow-delay=".5s">
+                        <div class="pr-3-content">
+                            <h2>Reusable <br>
+                                Eco friendly bags</h2>
+                            <p class="pr-sale-off">UP TO 60% OFF</p>
+                        </div>
+
+                        <div class="pr-sale-btn">
+                            <a href="shop.html">Shop now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start MPP -->
+    <section id="mpp">
+        <div class="container">
+            <div class="section-head wow animated fadeInUp">
+                <h3 class="sec-title">Most popular products</h3>
+            </div>
+
+            <div
+                class="d-flex flex-md-row  flex-column justify-content-between align-items-md-center align-items-sm-start wow animated fadeInUp">
+                <ul class="nav nav-pills" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="pill" href="#mpp1">ALL PRODUCTS <span>(20)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="pill" href="#mpp2">BOTTLE <span>(10)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="pill" href="#mpp3">BAGS <span>(02)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="pill" href="#mpp4">TOOTHBRUSHES <span>(08)</span></a>
+                    </li>
+                </ul>
+
+                <div class="see-all-btn">
+                    <a href="shop.html">See all products <i class="las la-angle-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="mpp1" class="tab-pane fade show active"><br>
+                    <div class="row gy-4">
+                        <div class="col-6 col-md-4 col-lg-3 wow animated fadeInUp">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product1.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i></div>
+
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Wooden Water Bottles</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$45.00</span> &nbsp; $40.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">SALE</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3 wow animated fadeInUp" data-wow-delay=".1s">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product2.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Wooden Cup</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$52.00</span> &nbsp; $23.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">-30%</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3 wow animated fadeInUp" data-wow-delay=".2s">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product3.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Bamboo toothbrushes</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$75.00</span> &nbsp; $30.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">-20%</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3 wow animated fadeInUp" data-wow-delay=".3s">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product4.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Eco friendly bags</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$55.00</span> &nbsp; $25.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">-25%</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3 wow animated fadeInUp" data-wow-delay=".4s">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product5.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Bamboo toothbrushes</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$85.00</span> &nbsp; $40.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">-50%</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3 wow animated fadeInUp" data-wow-delay=".5s">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product6.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Eco friendly bags</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$55.00</span> &nbsp; $30.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">-10%</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3 wow animated fadeInUp" data-wow-delay=".6s">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product7.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Wooden Water Bottles</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$96.00</span> &nbsp; $36.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">SALE</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3 wow animated fadeInUp" data-wow-delay=".7s">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product8.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Wooden Cup</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$75.00</span> &nbsp; $20.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">-60%</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="mpp2" class=" tab-pane fade"><br>
+                    <div class="row gy-4">
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product1.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Wooden Water Bottles</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$45.00</span> &nbsp; $40.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">SALE</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product2.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Wooden Cup</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$52.00</span> &nbsp; $23.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">-30%</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product7.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Wooden Water Bottles</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$96.00</span> &nbsp; $36.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">SALE</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product8.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Wooden Cup</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$75.00</span> &nbsp; $20.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">-60%</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="mpp3" class=" tab-pane fade"><br>
+                    <div class="row gy-4">
+
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product4.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Eco friendly bags</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$55.00</span> &nbsp; $25.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">-25%</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product6.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Eco friendly bags</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$55.00</span> &nbsp; $30.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">-10%</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="mpp4" class=" tab-pane fade"><br>
+                    <div class="row gy-4">
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product3.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Bamboo toothbrushes</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$75.00</span> &nbsp; $30.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">-20%</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="./images/product5.png" class="img-fluid " alt="product1">
+
+                                    <div class="product-shop d-flex justify-content-center align-items-center">
+                                        <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view">Quick View</div>
+
+                                        <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                        </div>
+                                        <div class="wsh-list-btn"><a href="./wishlist.html"><i
+                                                    class="lar la-heart"></i></a></div>
+                                        <div class="add-cart-btn"><a href="./cart.html"><i
+                                                    class="las la-shopping-cart"></i></a></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-content">
+                                    <h5><a href="">Bamboo toothbrushes</a></h5>
+
+                                    <ul>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star star-active"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                        <li><i class="las la-star"></i></li>
+                                    </ul>
+
+                                    <h6><span>$85.00</span> &nbsp; $40.00</h6>
+                                </div>
+
+                                <div class="product-tags d-flex justify-content-between align-items-center">
+                                    <div class="p-s-tag">-50%</div>
+                                    <div class="p-f-tag">FEATURED</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End MPP -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start Service -->
+    <section id="service">
+        <div class="container">
+            <div
+                class="service-main d-flex flex-column flex-sm-row  justify-content-evenly  align-items-center wow animated fadeIn">
+                <div class="service-box wow animated fadeInUp" data-wow-delay=".1s">
+                    <i class="las la-truck"></i>
+                    <h3>FREE SHIPPING</h3>
+                    <span class="square"></span>
+                    <p>Enjoy free shipping on all orders - no minimum purchase required.</p>
+                </div>
+
+                <div class="service-box wow animated fadeInUp" data-wow-delay=".3s">
+                    <i class="las la-comments"></i>
+                    <h3>24/7 SUPPORT</h3>
+                    <span class="square"></span>
+                    <p>Our Team Is Available 24/7 To Help With Any Questions Or Concerns.</p>
+                </div>
+
+                <div class="service-box wow animated fadeInUp" data-wow-delay=".5s">
+                    <i class="las la-hand-holding-usd"></i>
+                    <h3>MONEY BACK</h3>
+                    <span class="square"></span>
+                    <p>We Offer A 100% Money-Back Guarantee For Your Satisfaction.</p>
+                </div>
+            </div>
+
+            <div id="newslatter">
+                <div class="row wow animated fadeInUp">
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="newsletter-l d-flex align-items-center">
+                            <img src="./images/chat.svg" class="img-fluid" alt="chat.svg">
+
+                            <div class="newsletter-text">
+                                <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                                <p>Get latest news, offers and discounts.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="newsletter-r">
+                            <form action="" method="post" name="newslatter-form">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="newslatter-email"
+                                        id="newslatter-email" placeholder="Your Email Address" required>
+
+                                    <button class="btn btn-outline-secondary" type="submit" id="newsletter-btn"><i
+                                            class="las la-arrow-right"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Service -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start AD Product  -->
+    <section id="ad-product">
+        <div class="container-fluid px-0 d-flex flex-column  flex-sm-column flex-md-row ">
+            <div id="ad-l">
+                <div class="ad-content d-flex flex-column justify-content-between wow animated fadeInUp"
+                    data-wow-delay=".1s">
+                    <div class="ad-main">
+                        <span class="ad-badge">From $29.05</span>
+
+                        <h2>Organic Skincare for Glowing Complexion.</h2>
+
+                        <p>Lorem Ipsum is simply dummy text of It’s easy to get lost in the world of lovely valley
+                            vapour around and the meridian
+                            sun strikes the upper surface.
+                        </p>
+                    </div>
+
+                    <div class="pr-sale-btn">
+                        <a href="shop.html">Shop now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ad-r">
+                <div class="ad-content d-flex flex-column justify-content-between wow animated fadeInUp"
+                    data-wow-delay=".3s">
+                    <div class="ad-main">
+                        <span class="ad-badge">Free Shipping On All Orders Over $59</span>
+
+                        <h2>Shop & shipment acrossthe whole North America.</h2>
+
+                        <p>Lorem Ipsum is simply dummy text of It’s easy to get lost in the world of lovely valley
+                            vapour around and the meridian
+                            sun strikes the upper surface.
+                        </p>
+                    </div>
+
+                    <div class="pr-sale-btn">
+                        <a href="shop.html">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End AD Product  -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start trending product -->
+    <section id="trend-pr">
+        <div class="container wow animated fadeIn">
+            <div class="d-flex flex-md-row  flex-column justify-content-between align-items-md-center align-items-sm-start wow animated fadeInUp"
+                data-wow-delay=".1s">
+                <div class="section-head">
+                    <h3 class="sec-title">What's trending now</h3>
+                    <p class="sec-p">Discover the most trending products in Ciseco.</p>
+                </div>
+
+                <div class="see-all-btn">
+                    <a href="">See all products <i class="las la-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="trend-pr-main">
+                <div class="owl-carousel owl-two owl-theme">
+                    <div class="item wow animated fadeInUp" data-wow-delay=".1s">
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="./images/product1.png" class="img-fluid " alt="product1">
+
+                                <div class="product-shop d-flex justify-content-center align-items-center">
+                                    <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                        data-bs-target="#quick-view">Quick View</div>
+
+                                    <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                        data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                    </div>
+                                    <div class="wsh-list-btn"><a href="./wishlist.html"><i class="lar la-heart"></i></a>
+                                    </div>
+                                    <div class="add-cart-btn"><a href="./cart.html"><i
+                                                class="las la-shopping-cart"></i></a></div>
+                                </div>
+                            </div>
+
+                            <div class="product-content">
+                                <h5><a href="">Wooden Water Bottles</a></h5>
+
+                                <ul>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                </ul>
+
+                                <h6><span>$45.00</span> &nbsp; $40.00</h6>
+                            </div>
+
+                            <div class="product-tags d-flex justify-content-between align-items-center">
+                                <div class="p-s-tag">SALE</div>
+                                <div class="p-f-tag">FEATURED</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item wow animated fadeInUp" data-wow-delay=".2s">
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="./images/product2.png" class="img-fluid " alt="product1">
+
+                                <div class="product-shop d-flex justify-content-center align-items-center">
+                                    <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                        data-bs-target="#quick-view">Quick View</div>
+
+                                    <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                        data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                    </div>
+                                    <div class="wsh-list-btn"><a href="./wishlist.html"><i class="lar la-heart"></i></a>
+                                    </div>
+                                    <div class="add-cart-btn"><a href="./cart.html"><i
+                                                class="las la-shopping-cart"></i></a></div>
+                                </div>
+                            </div>
+
+                            <div class="product-content">
+                                <h5><a href="">Wooden Cup</a></h5>
+
+                                <ul>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                </ul>
+
+                                <h6><span>$52.00</span> &nbsp; $23.00</h6>
+                            </div>
+
+                            <div class="product-tags d-flex justify-content-between align-items-center">
+                                <div class="p-s-tag">-30%</div>
+                                <div class="p-f-tag">FEATURED</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item wow animated fadeInUp" data-wow-delay=".3s">
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="./images/product3.png" class="img-fluid " alt="product1">
+
+                                <div class="product-shop d-flex justify-content-center align-items-center">
+                                    <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                        data-bs-target="#quick-view">Quick View</div>
+
+                                    <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                        data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                    </div>
+                                    <div class="wsh-list-btn"><a href="./wishlist.html"><i class="lar la-heart"></i></a>
+                                    </div>
+                                    <div class="add-cart-btn"><a href="./cart.html"><i
+                                                class="las la-shopping-cart"></i></a></div>
+                                </div>
+                            </div>
+
+                            <div class="product-content">
+                                <h5><a href="">Bamboo toothbrushes</a></h5>
+
+                                <ul>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                </ul>
+
+                                <h6><span>$75.00</span> &nbsp; $30.00</h6>
+                            </div>
+
+                            <div class="product-tags d-flex justify-content-between align-items-center">
+                                <div class="p-s-tag">-20%</div>
+                                <div class="p-f-tag">FEATURED</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item wow animated fadeInUp" data-wow-delay=".4s">
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="./images/product7.png" class="img-fluid " alt="product1">
+
+                                <div class="product-shop d-flex justify-content-center align-items-center">
+                                    <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                        data-bs-target="#quick-view">Quick View</div>
+
+                                    <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                        data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                    </div>
+                                    <div class="wsh-list-btn"><a href="./wishlist.html"><i class="lar la-heart"></i></a>
+                                    </div>
+                                    <div class="add-cart-btn"><a href="./cart.html"><i
+                                                class="las la-shopping-cart"></i></a></div>
+                                </div>
+                            </div>
+
+                            <div class="product-content">
+                                <h5><a href="">Wooden Water Bottles</a></h5>
+
+                                <ul>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                </ul>
+
+                                <h6><span>$96.00</span> &nbsp; $36.00</h6>
+                            </div>
+
+                            <div class="product-tags d-flex justify-content-between align-items-center">
+                                <div class="p-s-tag">SALE</div>
+                                <div class="p-f-tag">FEATURED</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item wow animated fadeInUp" data-wow-delay=".5s">
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="./images/product8.png" class="img-fluid " alt="product1">
+
+                                <div class="product-shop d-flex justify-content-center align-items-center">
+                                    <div type="button" class="qck-v-btn" data-bs-toggle="modal"
+                                        data-bs-target="#quick-view">Quick View</div>
+
+                                    <div type="button" class="qck-v-i-btn" data-bs-toggle="modal"
+                                        data-bs-target="#quick-view"><i class="lar la-eye"></i>
+                                    </div>
+                                    <div class="wsh-list-btn"><a href="./wishlist.html"><i class="lar la-heart"></i></a>
+                                    </div>
+                                    <div class="add-cart-btn"><a href="./cart.html"><i
+                                                class="las la-shopping-cart"></i></a></div>
+                                </div>
+                            </div>
+
+                            <div class="product-content">
+                                <h5><a href="">Wooden Cup</a></h5>
+
+                                <ul>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star star-active"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                </ul>
+
+                                <h6><span>$75.00</span> &nbsp; $20.00</h6>
+                            </div>
+
+                            <div class="product-tags d-flex justify-content-between align-items-center">
+                                <div class="p-s-tag">-60%</div>
+                                <div class="p-f-tag">FEATURED</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End trending product -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start Testimonial -->
+    <section id="testimonial">
+        <div class="container wow animated fadeIn">
+            <div class="row">
+                <div class="col-lg-6 wow animated fadeInUp">
+                    <div class="test-l">
+                        <img src="./images/girl.png" class="img-fluid girl-img" alt="girl.png">
+
+                        <div class="our-custo">
+                            <h6>Our Satisfied User</h6>
+
+                            <ul class="d-flex ">
+                                <li class="our-custo-img">
+                                    <img src="./images/custo-pic1.png" class="img-fluid " alt="custo-pic1.png">
+                                </li>
+
+                                <li class="our-custo-img">
+                                    <img src="./images/custo-pic2.png" class="img-fluid " alt="custo-pic2.png">
+                                </li>
+
+                                <li class="our-total-custo"><span>+12K</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 d-flex align-items-center wow animated fadeInUp" data-wow-delay=".2s">
+                    <div class="test-r ">
+                        <div class="test-r-head">
+                            <h2>What our clients say <br>
+                                about us</h2>
+                        </div>
+
+                        <div class="test-slide">
+                            <div class="owl-carousel owl-three owl-theme">
+                                <div class="item">
+                                    <div class="test-content">
+                                        <p class="test-text">It is a long established fact that a reader will be
+                                            distracted by the
+                                            readable content of a page when looking at its
+                                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                                            distribution of letters, as opposed to using
+                                            'Content here, content here', making it look like readable English.
+                                        </p>
+
+                                        <div class="test-client d-flex align-items-center">
+                                            <div class="test-client-img">
+                                                <img src="./images/testimonial.jpg" class="img-fluid"
+                                                    alt="testimonial.jpg">
+                                            </div>
+
+                                            <div class="test-client-info">
+                                                <h6>Kenneth Fong</h6>
+                                                <span>Postgraduate Student</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="test-content">
+                                        <p class="test-text">It is a long established fact that a reader will be
+                                            distracted by the
+                                            readable content of a page when looking at its
+                                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                                            distribution of letters, as opposed to using
+                                            'Content here, content here', making it look like readable English.
+                                        </p>
+
+                                        <div class="test-client d-flex align-items-center">
+                                            <div class="test-client-img">
+                                                <img src="./images/testimonial.jpg" class="img-fluid"
+                                                    alt="testimonial.jpg">
+                                            </div>
+
+                                            <div class="test-client-info">
+                                                <h6>Joe Do</h6>
+                                                <span>Undergraduate Student</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonial -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start Blog -->
+    <section id="blog-post">
+        <div class="container wow animated fadeIn">
+            <div class="d-flex flex-md-row  flex-column justify-content-between align-items-md-center align-items-sm-start wow animated fadeInUp"
+                data-wow-delay=".2s">
+                <div class="section-head">
+                    <h3 class="sec-title">Blog Post</h3>
+                    <p class="sec-p">Discover the most trending post.</p>
+                </div>
+
+                <div class="see-all-btn">
+                    <a href="blog.html">See All Post <i class="las la-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="row mt-4 ">
+                <div class="col-lg-6 order-lg-1 order-2 wow animated fadeInUp" data-wow-delay=".2s">
+                    <div class="blog-post-l">
+                        <img src="./images/blog1.png" class="img-fluid " alt="blog1.png">
+
+                        <div class="blog-info-l">
+                            <span class="blog-meta">10 Mar 2023</span>
+
+                            <h3 class="blog-name-l"><a href="">Uncovering The Benefits of Wooden Based Furniture</a>
+                            </h3>
+
+                            <a href="blog.html" class="rd-m-btn d-flex align-items-end">
+                                Read More
+                                <i class="las la-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 order-lg-2 order-1 ">
+                    <div class="row blog-r-flex d-flex flex-column">
+                        <div class="col-xl-12 col-lg-12 col-sm-6 wow animated fadeInUp" data-wow-delay=".4s">
+                            <div class="blog-post-r">
+                                <img src="./images/blog2.png" class="img-fluid " alt="blog1.png">
+
+                                <div class="blog-info-r">
+                                    <span class="blog-meta">17 April 2023</span>
+
+                                    <h3 class="blog-name-r"><a href="">Explore The Benefits of Wooden Utensils In
+                                            DailyLife</a></h3>
+
+                                    <a href="blog.html" class="rd-m-btn d-flex align-items-end">
+                                        Read More
+                                        <i class="las la-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-12 col-lg-12 col-sm-6 wow animated fadeInUp" data-wow-delay=".6s">
+                            <div class="blog-post-r">
+                                <img src="./images/blog3.png" class="img-fluid " alt="blog1.png">
+
+                                <div class="blog-info-r">
+                                    <span class="blog-meta">20 Jan 2023</span>
+
+                                    <h3 class="blog-name-r"><a href="">With Wooden Comb Makes Your Hairs More Beautiful
+                                            and Clean</a></h3>
+
+                                    <a href="blog.html" class="rd-m-btn d-flex align-items-end">
+                                        Read More
+                                        <i class="las la-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Blog -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start img-info -->
+    <section id="img-info-sec">
+        <div class="container-fluid px-0 wow animated fadeInUp">
+            <div class="row gx-0">
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-4 img-info-box">
+                    <a href=""><img src="./images/feature1.png" class="img-fluid " alt="feature1.png"></a>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-4 img-info-box">
+                    <a href=""><img src="./images/feature2.png" class="img-fluid " alt="feature2.png"></a>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-4 img-info-box">
+                    <a href=""><img src="./images/feature3.png" class="img-fluid " alt="feature2.png"></a>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-4 img-info-box">
+                    <a href=""><img src="./images/feature4.png" class="img-fluid " alt="feature2.png"></a>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-4 img-info-box">
+                    <a href=""><img src="./images/feature5.png" class="img-fluid " alt="feature2.png"></a>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-4 img-info-box">
+                    <a href=""><img src="./images/feature6.png" class="img-fluid " alt="feature2.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End img-info -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start More Service Info -->
+    <section id="m-ser-info">
+        <div class="container-fluid px-0 wow animated fadeInUp" data-wow-delay=".2s">
+            <div class="row gx-0">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <div class="m-ser-info-box d-flex align-items-center">
+                        <div class="m-icon-box">
+                            <img src="./images/password-check.svg" class="img-fluid " alt="password-check.svg">
+                        </div>
+
+                        <div class="m-ser-content">
+                            <h5>Filter & Discover</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                        </div>
+
+                        <div class="m-ser-data">01</div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <div class="m-ser-info-box d-flex align-items-center">
+                        <div class="m-icon-box">
+                            <img src="./images/cart.svg" class="img-fluid " alt="cart.svg">
+                        </div>
+
+                        <div class="m-ser-content">
+                            <h5>Add to cart</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                        </div>
+
+                        <div class="m-ser-data">02</div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <div class="m-ser-info-box d-flex align-items-center">
+                        <div class="m-icon-box">
+                            <img src="./images/discovery.svg" class="img-fluid " alt="discovery.svg">
+                        </div>
+
+                        <div class="m-ser-content">
+                            <h5>Fast Shipping</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                        </div>
+
+                        <div class="m-ser-data">03</div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <div class="m-ser-info-box d-flex align-items-center">
+                        <div class="m-icon-box">
+                            <img src="./images/box-tick.svg" class="img-fluid " alt="box-tick.svg">
+                        </div>
+
+                        <div class="m-ser-content">
+                            <h5>Enjoy The Product</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                        </div>
+
+                        <div class="m-ser-data">04</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End More Service Info -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start Footer -->
+    <footer>
+        <section id="footer-top">
+            <div class="container wow animated fadeInUp" data-wow-delay=".4s">
+                <div class="row gy-5">
+                    <div class="col-xl-3 col-md-4 col-sm-6 ">
+                        <div class="footer-ab">
+                            <div class="footer-logo">
+                                <a href="">
+                                    <img src="./images/logo.svg" class="img-fluid " alt="logo.svg">
+                                </a>
+                            </div>
+
+                            <ul class="footer-add">
+                                <li>
+                                    <p><span>Address :</span> 451 Wall Street, UK, London</p>
+                                </li>
+
+                                <li>
+                                    <p><span>E-mail :</span> example@info.com</p>
+                                </li>
+
+                                <li>
+                                    <p><span>Phone :</span> (064) 332-1233</p>
+                                </li>
+                            </ul>
+
+                            <div class="footer-subsc">
+                                <h6>Subscribe To Our Newsletter</h6>
+
+                                <form action="" method="post" name="newslatter-form">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="newslatter-email"
+                                            id="f-newslatter-email" placeholder="Your Email Address" required>
+
+                                        <button class="btn btn-outline-secondary" type="submit" id="f-newsletter-btn"><i
+                                                class="las la-arrow-right"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 ">
+                        <div class="footer-blog">
+                            <h5 class="f-title">Recent Posts</h5>
+
+                            <ul class="d-flex flex-column ">
+                                <li class="d-flex align-items-center">
+                                    <div class="f-blog-img">
+                                        <img src="./images/footer-1.png" class="img-fluid " alt="footer-1.png">
+                                    </div>
+
+                                    <div class="f-blog-content">
+                                        <h6><a href="">Wooden Water Bottles</a></h6>
+
+                                        <span>July 23, 2023</span>
+                                    </div>
+                                </li>
+
+                                <li class="d-flex align-items-center">
+                                    <div class="f-blog-img">
+                                        <img src="./images/footer-2.png" class="img-fluid " alt="footer-2.png">
+                                    </div>
+
+                                    <div class="f-blog-content">
+                                        <h6><a href="">Eco friendly bags</a></h6>
+
+                                        <span>July 23, 2023</span>
+                                    </div>
+                                </li>
+
+                                <li class="d-flex align-items-center">
+                                    <div class="f-blog-img">
+                                        <img src="./images/footer-3.png" class="img-fluid " alt="footer-3.png">
+                                    </div>
+
+                                    <div class="f-blog-content">
+                                        <h6><a href="">Bamboo toothbrushes</a></h6>
+
+                                        <span>July 23, 2023</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-md-4 col-sm-4 col-6 ">
+                        <div class="footer-stores">
+                            <h5 class="f-title">Our Stores</h5>
+
+                            <ul class="d-flex flex-column f-list ">
+                                <li><a href="">New York</a></li>
+                                <li><a href="">London SF</a></li>
+                                <li><a href="">Edinburgh</a></li>
+                                <li><a href="">Los Angeles</a></li>
+                                <li><a href="">Chicago</a></li>
+                                <li><a href="">Las Vegas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-md-4 col-sm-4 col-6 ">
+                        <div class="footer-links">
+                            <h5 class="f-title">Useful Links</h5>
+
+                            <ul class="d-flex flex-column f-list ">
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Returns</a></li>
+                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Latest News</a></li>
+                                <li><a href="">Our Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-md-4 col-sm-4 ">
+                        <div class="footer-menu">
+                            <h5 class="f-title">Footer Menu</h5>
+
+                            <ul class="d-flex flex-column f-list ">
+                                <li><a href="">Instagram Profile</a></li>
+                                <li><a href="">New Collection</a></li>
+                                <li><a href="">Woman Dress</a></li>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="clearfix"></div>
+
+        <section id="footer-bottom">
+            <div class="container wow animated fadeInUp" data-wow-delay=".5s">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 text-start">
+                        <p class="copy-text">
+                            &copy; 2024 All Rights Reserved By <a href="">Nayan Maity</a>.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 text-end">
+                        <div
+                            class="pay-tag d-flex align-items-center justify-content-center justify-content-md-center justify-content-xl-end ">
+                            <span>We Accept: </span>
+                            <img src="./images/pay-tag.png" class="img-fluid " alt="pay-tag.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- End Footer -->
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="./js/wow.min.js"></script>
+
+    <script defer src="./js/app.js"></script>
+
+</body>
+
+</html>
