@@ -1413,9 +1413,6 @@ header.sticky {
 
         }
     }
-
-
-    .tab-content {}
 }
 
 
@@ -2733,10 +2730,6 @@ header.page-header {
             box-shadow: none;
         }
 
-        .shop-filter {
-            aside {}
-        }
-
         .sh-area-top {
             margin-bottom: 20px;
 
@@ -4029,10 +4022,6 @@ header.page-header {
                 .wish-head-a2c {
                     width: 220px;
                 }
-
-                .wish-head-action {
-                    /* padding-right: 15px; */
-                }
             }
 
             .wish-table-body {
@@ -4186,11 +4175,6 @@ header.page-header {
                 .cart-pr-img {
                     width: 150px;
                     height: auto;
-
-                    img {
-                        /* width: 120px;
-                        height: auto; */
-                    }
                 }
 
                 .cart-pr-meta {
