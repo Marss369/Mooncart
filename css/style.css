@@ -3545,7 +3545,7 @@ header.page-header {
     top: -165%;
     left: 0;
     background-color: rgba(255, 255, 255, 0.9);
-    z-index: 99;
+    z-index: 9999;
     transition: 0.5s;
 
     .img-view-top {
